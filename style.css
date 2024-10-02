@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 239, 239);
+  }
+
+  .main-con {
+    height: 100%;
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notification-top-con {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .notification-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notification {
+    color: hsl(224, 21%, 14%);
+  }
+
+  .notification-length {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: hsl(219, 85%, 26%);
+    height: 5px;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 7px;
+  }
+
+  .mark-read {
+    color: hsl(219, 85%, 26%);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .noti-content-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+  }
+
+  .not-read {
+    height: 150px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: hsl(210, 63%, 97%);
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+  }
+  .image{
+    margin: 0px 20px;
+  }
+  .content-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .content-like-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+  }
+  .content-items-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .name{
+    color: hsl(219, 94%, 12%);
+    margin: 5px;
+  }
+  .des{
+    font-size: 16px;
+    color: gray;
+    margin: 5px;
+  }
+  .comment{
+    color: hsl(219, 85%, 26%);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .dot{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(252, 60, 60);
+    border-radius: 50%;
+    margin: 5px;
+  }
+  .read-con{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 95%;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  .comment-des{
+     width: 97%;
+     font-size: 20px;
+     height: 80px;
+     background-color: hsl(211, 68%, 94%);
+     border-radius: 10px;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding-left: 20px;
+     cursor: pointer;
+  }
+  .attribution{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 375px) {
+    .main-con{
+        width: 90%;
+    }
+    .notification-top-con{
+        margin: 20px;
+    }
+    .notification{
+        font-size: 13px;
+    }
+    .notification-length{
+        height: 3px;
+        width: 3px;
+        font-size: 10px;
+    }
+    .mark-read{
+        font-size: 12px;
+    }
+    .not-read{
+        margin-left: -20px;
+        width: 90%;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .image{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .name{
+        font-size: 7px;
+    }
+    .des{
+        font-size: 7px;
+    }
+    .comment{
+        font-size: 7px;
+    }
+    .time{
+        font-size: 7px;
+        padding-left: 5px;
+    }
+    .read-con{
+        margin-left: -20px;
+        width: 90%;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .comment-des{
+        font-size: 8px;
+        height: 50px;
+        width: 90%;
+    }
+    .like-image{
+        height: 30px;
+        width: 30px;
+    }
+    .attribution{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .dot{
+        height: 3px;
+        width: 3px;
+    }
+  }
