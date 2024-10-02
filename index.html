@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <div class="main-con">
+    <div class="notification-top-con">
+      <div class="notification-con">
+        <h1 class="notification">Notifications</h1>
+        <p class="notification-length">3</p>
+      </div>
+      <p class="mark-read" id="markRead">Mark all as read</p>
+    </div>
+    <div>
+      <ul class="noti-content-con">
+        <li class="not-read">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-angela-gray.webp' alt="avatar-angela-gray">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Mark Webber</h3>
+              <p class="des">reacted to your recent post</p>
+              <span class="comment">My first tournament today!</span>
+              <h6 class="dot" id="dot"></h6>
+            </div>
+            <p class="time">1m ago</p>
+          </div>
+        </li>
+        <li class="not-read">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-anna-kim.webp' alt="avatar-anna-kim">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Angela Gray</h3>
+              <p class="des">followed you</p>
+              <h6 class="dot"></h6>
+            </div>
+            <p class="time">5m ago</p>
+          </div>
+        </li>
+        <li class="not-read">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-jacob-thompson.webp' alt="avatar-jacob-thompson">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Jacob Thompson</h3>
+              <p class="des">has joined your group</p>
+              <span class="comment"> Chess Club</span>
+              <h6 class="dot"></h6>
+            </div>
+            <p class="time"> 1 day ago</p>
+          </div>
+        </li>
+        <li class="read-con">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-rizky-hasanuddin.webp' alt="avatar-rizky-hasanuddin">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Rizky Hasanuddin</h3>
+              <p class="des">sent you a private message</p>
+            </div>
+            <p class="time"> 5 day ago</p>
+            <p class="comment-des"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.</p>
+          </div>
+        </li>
+        <li class="read-con">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-kimberly-smith.webp' alt="avatar-kimberly-smith">
+          </div>
+          <div class="content-like-con">
+            <div class="like-msg-con">
+              <div class="content-items-con">
+                <h3 class="name">Kimberly Smith</h3>
+                <p class="des">commented on your picture</p>
+              </div>
+              <p class="time">1 week ago</p>
+            </div>
+            <div class="like-persion-img">
+              <img class="like-image" src="./assets/images/image-chess.webp" alt="image-chess">
+            </div>
+          </div>
+        </li>
+        <li class="read-con">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-nathan-peterson.webp' alt="avatar-nathan-peterson">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Nathan Peterson</h3>
+              <p class="des">reacted to your recent post </p>
+              <span class="comment">5 end-game strategies to increase your win rate</span>
+            </div>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </li>
+        <li class="read-con">
+          <div class="image-con">
+            <img class="image" src='./assets/images/avatar-rizky-hasanuddin.webp' alt="avatar-rizky-hasanuddin">
+          </div>
+          <div class="content-con">
+            <div class="content-items-con">
+              <h3 class="name">Anna Kim</h3>
+              <p class="des">left the group </p>
+              <span class="comment"> Chess Club</span>
+            </div>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Jeganathan</a>.
+  </div>
+</body>
+
+</html>
